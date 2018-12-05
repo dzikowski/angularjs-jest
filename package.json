@@ -1,0 +1,44 @@
+{
+  "name": "angularjs-jest",
+  "version": "0.1.0",
+  "description": "Library for testing AngularJS applications with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withspace/angularjs-jest.git"
+  },
+  "keywords": [
+    "angularjs",
+    "jest"
+  ],
+  "author": "Jakub Dzikowski <jakub.dzikowski@softwaremill.com> (http://dzikowski.online)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withspace/angularjs-jest/issues"
+  },
+  "homepage": "https://github.com/withspace/angularjs-jest#readme",
+  "dependencies": {
+    "angular": ">1.5.0",
+    "angular-mocks": ">1.5.0",
+    "html-minifier": ">3.0.0",
+    "jest": ">23.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-angularjs-annotate": "^0.9.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-angular": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0"
+  }
+}
