@@ -1,0 +1,6 @@
+.babelrc
+.eslintrc.js
+.idea
+.travis.yml
+example
+jest.config.js
