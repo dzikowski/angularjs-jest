@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`productQuantity.component should match snapshot 1`] = `
+<span
+  class="value-unit-pair"
+>
+  <span
+    class="value number ng-binding"
+  >
+    20.00
+  </span>
+  <product-unit
+    class="unit ng-isolate-scope"
+    product-id="$ctrl.productId"
+  >
+    <unit-short-name
+      class="ng-binding ng-isolate-scope"
+      unit-id="$ctrl.unitId"
+    >
+      pcs
+    </unit-short-name>
+  </product-unit>
+</span>
+`;

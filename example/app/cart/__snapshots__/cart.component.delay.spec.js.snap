@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart.component should render cart 1`] = `
+<table
+  class="table"
+>
+  <thead>
+    <tr>
+      <th
+        scope="col"
+        style="width: 10%;"
+      >
+        #
+      </th>
+      <th
+        scope="col"
+        style="width: 50%;"
+      >
+        Name
+      </th>
+      <th
+        scope="col"
+        style="width: 20%;"
+      >
+        Quantity
+      </th>
+      <th
+        scope="col"
+        style="width: 20%;"
+      >
+        Price per unit
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      class="ng-scope"
+      ng-repeat="item in $ctrl.items"
+    >
+      <td
+        class="ng-binding"
+        scope="row"
+      >
+        1
+      </td>
+      <td>
+        <product-name
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="ng-binding ng-scope"
+            ng-if="$ctrl.name"
+          >
+            Copper wire 0.6 mm
+          </span>
+        </product-name>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-quantity
+          class="ng-isolate-scope"
+          product-id="item.productId"
+          quantity="item.quantity"
+        >
+          <span
+            class="value-unit-pair"
+          >
+            <span
+              class="value number ng-binding"
+            >
+              4.50
+            </span>
+            <product-unit
+              class="unit ng-isolate-scope"
+              product-id="$ctrl.productId"
+            >
+              <unit-short-name
+                class="ng-binding ng-isolate-scope"
+                unit-id="$ctrl.unitId"
+              >
+                m
+              </unit-short-name>
+            </product-unit>
+          </span>
+        </product-quantity>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-price
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="number text-nowrap ng-binding"
+          >
+            $ 0.37
+          </span>
+        </product-price>
+      </td>
+    </tr>
+    <tr
+      class="ng-scope"
+      ng-repeat="item in $ctrl.items"
+    >
+      <td
+        class="ng-binding"
+        scope="row"
+      >
+        2
+      </td>
+      <td>
+        <product-name
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="ng-binding ng-scope"
+            ng-if="$ctrl.name"
+          >
+            Pliers
+          </span>
+        </product-name>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-quantity
+          class="ng-isolate-scope"
+          product-id="item.productId"
+          quantity="item.quantity"
+        >
+          <span
+            class="value-unit-pair"
+          >
+            <span
+              class="value number ng-binding"
+            >
+              1.00
+            </span>
+            <product-unit
+              class="unit ng-isolate-scope"
+              product-id="$ctrl.productId"
+            >
+              <unit-short-name
+                class="ng-binding ng-isolate-scope"
+                unit-id="$ctrl.unitId"
+              >
+                pcs
+              </unit-short-name>
+            </product-unit>
+          </span>
+        </product-quantity>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-price
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="number text-nowrap ng-binding"
+          >
+            $ 6.49
+          </span>
+        </product-price>
+      </td>
+    </tr>
+    <tr
+      class="ng-scope"
+      ng-repeat="item in $ctrl.items"
+    >
+      <td
+        class="ng-binding"
+        scope="row"
+      >
+        3
+      </td>
+      <td>
+        <product-name
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="ng-binding ng-scope"
+            ng-if="$ctrl.name"
+          >
+            Finishing coat
+          </span>
+        </product-name>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-quantity
+          class="ng-isolate-scope"
+          product-id="item.productId"
+          quantity="item.quantity"
+        >
+          <span
+            class="value-unit-pair"
+          >
+            <span
+              class="value number ng-binding"
+            >
+              0.25
+            </span>
+            <product-unit
+              class="unit ng-isolate-scope"
+              product-id="$ctrl.productId"
+            >
+              <unit-short-name
+                class="ng-binding ng-isolate-scope"
+                unit-id="$ctrl.unitId"
+              >
+                kg
+              </unit-short-name>
+            </product-unit>
+          </span>
+        </product-quantity>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-price
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="number text-nowrap ng-binding"
+          >
+            $ 1.99
+          </span>
+        </product-price>
+      </td>
+    </tr>
+    <tr
+      class="ng-scope"
+      ng-repeat="item in $ctrl.items"
+    >
+      <td
+        class="ng-binding"
+        scope="row"
+      >
+        4
+      </td>
+      <td>
+        <product-name
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="ng-binding ng-scope"
+            ng-if="$ctrl.name"
+          >
+            Electrical outlet
+          </span>
+        </product-name>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-quantity
+          class="ng-isolate-scope"
+          product-id="item.productId"
+          quantity="item.quantity"
+        >
+          <span
+            class="value-unit-pair"
+          >
+            <span
+              class="value number ng-binding"
+            >
+              3.00
+            </span>
+            <product-unit
+              class="unit ng-isolate-scope"
+              product-id="$ctrl.productId"
+            >
+              <unit-short-name
+                class="ng-binding ng-isolate-scope"
+                unit-id="$ctrl.unitId"
+              >
+                pcs
+              </unit-short-name>
+            </product-unit>
+          </span>
+        </product-quantity>
+      </td>
+      <td
+        class="text-right"
+      >
+        <product-price
+          class="ng-isolate-scope"
+          product-id="item.productId"
+        >
+          <span
+            class="number text-nowrap ng-binding"
+          >
+            $ 5.69
+          </span>
+        </product-price>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

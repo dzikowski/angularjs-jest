@@ -1,0 +1,16 @@
+.value-unit-pair .value {
+    margin-right: 2em;
+    display: inline-block;
+    text-align: right;
+}
+
+.value-unit-pair .unit {
+    margin-left: -2em;
+    width: 2em;
+    display: inline-block;
+    text-align: left;
+}
+
+.number {
+    font-variant-numeric: tabular-nums;
+}
