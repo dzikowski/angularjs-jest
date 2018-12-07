@@ -1,14 +1,17 @@
 # angularjs-jest
 
-Library for testing AngularJS applications with Jest.
+Testing AngularJS applications with Jest.
+
 
 ## Instalation
 
-`npm install angularjs-jest --save-dev`
+`npm install angularjs-jest --save-dev` or `yarn add --dev angularjs-jest`
 
-or
+Required libraries in your project:
 
-`yarn add --dev angularjs-jest`
+- `angular` in version `1.5.0` or higher
+- `angular-mocks` in version `1.5.0` or higher
+- `jest` in version higher than `23.0.1`
 
 
 ## Usage
@@ -34,6 +37,7 @@ const testApp = createTestApp({
 });
 ```
 
+
 ### Testing the view
 
 ```javascript
@@ -45,6 +49,7 @@ expected(element.test()).toEqual('Hello Alice')
 ```
 
 The `render` function accepts any valid AngularJS template. For example you can use an arbitrary HTML code or the components you have defined in your application (you just need to remember to provide module names in the `modules` parameter of `createTestApp`).
+
 
 ### Asynchronous tests
 
