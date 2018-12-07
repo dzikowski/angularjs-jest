@@ -25,8 +25,10 @@
   "peerDependencies": {
     "angular": ">=1.5.0",
     "angular-mocks": ">=1.5.0",
-    "html-minifier": ">=3.0.0",
     "jest": ">23.0.1"
+  },
+  "dependencies": {
+    "html-minifier": ">=3.0.0"
   },
   "devDependencies": {
     "angular": ">=1.5.0",
@@ -44,7 +46,6 @@
     "eslint-plugin-angular": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.22.0",
-    "html-minifier": ">=3.0.0",
     "jest": ">23.0.1"
   }
 }
