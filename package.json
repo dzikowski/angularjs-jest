@@ -1,6 +1,6 @@
 {
   "name": "angularjs-jest",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Library for testing AngularJS applications with Jest",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,15 @@
     "url": "https://github.com/withspace/angularjs-jest/issues"
   },
   "homepage": "https://github.com/withspace/angularjs-jest#readme",
-  "dependencies": {
-    "angular": ">1.5.0",
-    "angular-mocks": ">1.5.0",
-    "html-minifier": ">3.0.0",
+  "peerDependencies": {
+    "angular": ">=1.5.0",
+    "angular-mocks": ">=1.5.0",
+    "html-minifier": ">=3.0.0",
     "jest": ">23.0.1"
   },
   "devDependencies": {
+    "angular": ">=1.5.0",
+    "angular-mocks": ">=1.5.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.4.2",
@@ -41,6 +43,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-angular": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.22.0"
+    "eslint-plugin-jest": "^21.22.0",
+    "html-minifier": ">=3.0.0",
+    "jest": ">23.0.1"
   }
 }
