@@ -5,8 +5,15 @@ node_js:
 
 sudo: false
 
+cache: false
+
 script:
-  - cd example
+  - cd lib
+  - npm install
+  - npm run lint
+  - npm run build
+
+  - cd ../example
   - npm install
   - npm run lint
   - npm run test
