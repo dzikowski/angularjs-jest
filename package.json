@@ -1,7 +1,7 @@
 {
   "name": "angularjs-jest",
   "version": "0.1.3",
-  "description": "Library for testing AngularJS applications with Jest",
+  "description": "Testing AngularJS applications with Jest",
   "main": "index.js",
   "scripts": {
     "build": "babel --presets env src -d ./dist",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/withspace/angularjs-jest.git"
+    "url": "git+https://github.com/dzikowski/angularjs-jest.git"
   },
   "keywords": [
     "angularjs",
@@ -19,9 +19,9 @@
   "author": "Jakub Dzikowski <jakub.dzikowski@softwaremill.com> (http://dzikowski.online)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/withspace/angularjs-jest/issues"
+    "url": "https://github.com/dzikowski/angularjs-jest/issues"
   },
-  "homepage": "https://github.com/withspace/angularjs-jest#readme",
+  "homepage": "https://github.com/dzikowski/angularjs-jest#readme",
   "peerDependencies": {
     "angular": ">=1.5.0",
     "angular-mocks": ">=1.5.0",

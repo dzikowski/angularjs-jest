@@ -2,7 +2,7 @@
   "name": "angularjs-jest-example",
   "private": true,
   "version": "1.0.0",
-  "description": "Testing AngularJS application with Jest",
+  "description": "Testing AngularJS application with Jest - example app",
   "license": "MIT",
   "devDependencies": {
     "angular-mocks": "^1.7.3",
