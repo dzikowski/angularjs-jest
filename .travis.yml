@@ -19,3 +19,10 @@ jobs:
       - npm install
       - npm run lint
       - npm run test
+    deploy:
+      provider: pages
+      skip_cleanup: true
+      github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+      local_dir: example/dist
+      on:
+        branch: master
