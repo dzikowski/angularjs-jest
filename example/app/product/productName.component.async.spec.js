@@ -47,17 +47,13 @@ describe('productName.component', () => {
     expect(element.html()).toContain('Unknown product');
   });
 
-  it('should render "Unknown product" and then product name with service based on Promise', async () => {
+  it('should render "Unknown product" and then product name with service based on Promise (2)', async () => {
     const testApp = createTestAppWithProductService(() => ProductServicePromise());
     const element = testApp.render(`<product-name product-id="'${product.id}'" />`);
 
-    await testApp.eventually(() => {
-      expect(element.html()).toContain('Unknown product');
-      expect(element.html()).toContain(product.id);
-    });
+    expect(element.html()).toContain('Unknown product');
+    expect(element.html()).toContain(product.id);
 
-    await testApp.eventually(() => {
-      expect(element.html()).toContain(product.name);
-    });
+    await testApp.eventually(() => expect(element.html()).toContain(product.name));
   });
 });
