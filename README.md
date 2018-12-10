@@ -47,7 +47,7 @@ testApp.$scope.name = 'Alice';
 
 const element = testApp.render('Hello {{ name }}');
 
-expected(element.test()).toEqual('Hello Alice')
+expected(element.text()).toEqual('Hello Alice')
 ```
 
 The `render` function accepts any valid AngularJS template. For example you can use an arbitrary HTML code or the components you have defined in your application (you just need to remember to provide module names in the `modules` parameter of `createTestApp`).
