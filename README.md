@@ -1,6 +1,8 @@
 # angularjs-jest
 
 [![Build Status](https://travis-ci.org/dzikowski/angularjs-jest.svg?branch=master)](https://travis-ci.org/dzikowski/angularjs-jest)
+[![Version](https://img.shields.io/npm/v/angularjs-jest.svg)](https://www.npmjs.com/package/angularjs-jest)
+[![Downloads](https://img.shields.io/npm/dm/angularjs-jest.svg)](https://www.npmjs.com/package/angularjs-jest)
 
 Testing AngularJS applications with Jest. You can see the article on Medium for more information: [AngularJS and Jest. Three steps to improve your legacy frontend tests](https://blog.softwaremill.com/angularjs-and-jest-three-steps-to-improve-your-legacy-frontend-tests-90674c0017e4).
 
