@@ -1,6 +1,6 @@
 {
   "name": "angularjs-jest",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Testing AngularJS applications with Jest",
   "main": "index.js",
   "scripts": {
