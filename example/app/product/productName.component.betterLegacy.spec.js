@@ -1,4 +1,4 @@
-import { createTestApp } from 'angularjs-jest';
+import { createTestApp } from '../angularjs-jest-snapshot'; // change to 'angularjs-jest' to use package from npm;
 import ProductModule from './product.module';
 import { ProductServiceInstant } from '../serviceMocks';
 import { products } from '../dataMocks';
