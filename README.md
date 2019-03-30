@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dzikowski/angularjs-jest.svg?branch=master)](https://travis-ci.org/dzikowski/angularjs-jest)
 
-Testing AngularJS applications with Jest.
+Testing AngularJS applications with Jest. You can see the article on Medium for more information: [AngularJS and Jest. Three steps to improve your legacy frontend tests](https://blog.softwaremill.com/angularjs-and-jest-three-steps-to-improve-your-legacy-frontend-tests-90674c0017e4).
 
 
 ## Instalation
