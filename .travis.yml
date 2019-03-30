@@ -13,7 +13,7 @@ jobs:
       - npm install
       - npm run lint
       - npm run build
-      - cd example
+      - cd ../example
       - npm install
       - npm run lint
       - npm run test
